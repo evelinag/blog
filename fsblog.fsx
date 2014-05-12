@@ -30,7 +30,7 @@ Environment.CurrentDirectory <- __SOURCE_DIRECTORY__
 type Config = YamlConfig<"config/config.yml">
 
 let config = Config()
-let root = config.url.AbsoluteUri
+let root = config.url.OriginalString //.AbsoluteUri
 let title = config.title
 let description = config.description
 let gitLocation = config.gitlocation
