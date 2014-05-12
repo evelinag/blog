@@ -1,0 +1,133 @@
+﻿@using System.Linq
+@helper PostDate(DateTime rawDate) {
+    <time datetime="@rawDate.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss")" pubdate data-updated="true">@rawDate.ToString("MMM d, yyyy")</time>
+}
+
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Evelina Gabasova | Blog</title>
+    <meta name="description" content="Evelina Gabasova's personal blog. I'll be writing about machine learning and data science in F#." />
+    <meta name="author" content="Evelina Gabasova" />
+    <meta name="copyright" content="Evelina Gabasova 2014" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@("@evelgab")">
+    <meta name="twitter:title" content="@Title">
+    <meta name="twitter:description" content="@Description">
+    @if (Image != "")
+    {
+        <meta name="twitter:image" content="@Image">
+    }
+    <!-- End Twitter cards -->
+
+    <link rel="stylesheet" href="@Model.Root/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/fontsStylesheet.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/personalStyles.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/pygment_trac.css">
+
+    <link rel="shortcut icon" href="@Model.Root/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- FSharp.Formatting Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="@Model.Root/fsharp.formatting/tooltips.css" />
+    <script type="text/javascript" src="@Model.Root/fsharp.formatting/tooltips.js"></script>
+    <script type="text/javascript" src="@Model.Root/javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+
+<body>
+    <!-- Nav Bar -->
+    <div class="row">
+        <div class="large-12 columns">
+
+            <div class="logo">
+                <a href="http://www.evelinag.com"><img alt="Evelina Gabasova's blog" data-interchange="[http://evelinag.com//logo/logo.png, (default)], [http://evelinag.com//logo/logoSmall.png, (small)]" /></a>
+            </div>
+
+            <hr />
+        </div>
+    </div>
+    <!-- End Nav -->
+    <!-- Main Page Content and Sidebar -->
+    <div class="row">
+
+        <!-- Main Blog Content -->
+        <div class="large-9 columns" role="content">
+            @RenderBody()
+        </div>
+        <!-- End Main Content -->
+
+        <!-- Sidebar -->
+        <aside class="large-3 columns">
+            <div class="panel">
+                <h5>About me</h5>
+
+                <img src="@Model.Root/img/me_bw_square_small.jpg">
+                <p>
+                    Welcome to my blog! <br />
+                    I'll be writing about data science and machine learning using
+                    the F# programming language. <br />
+                    I'm Evelina Gabasova, currently a PhD student in statistical genomics
+                    at Cambridge University in
+                    <a href="http://www.mrc-bsu.cam.ac.uk/">MRC Biostatistics Unit</a>.
+                </p>
+
+                <h5>Contact me</h5>
+                <ul class="no-bullet">
+                    <li><div class="twittercontact"><a href="http://twitter.com/evelgab">@@evelgab</a></div></li>
+                    <li><div class="emailcontact"><a href="mailto:evelina@evelinag.com">evelina@@evelinag.com</a></div></li>
+                    <li><div class="githubcontact"><a href="http://github.com/evelinag">evelinag</a></div></li>
+                    <li><div class="linkedincontact"><a href="http://uk.linkedin.com/in/egabasova">egabasova</a></div></li>
+                </ul>
+                <br />
+            </div>
+        </aside>
+        <!-- End Sidebar -->
+    </div>
+    <!-- End Main Content and Sidebar -->
+
+    <!-- Footer -->
+    <footer class="row">
+        <div class="large-12 columns">
+            <hr />
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>
+                        This site is generated using <a href="https://github.com/fsprojects/FsBlog">FsBlog</a> and hosted on <a href="http://github.com/evelinag">GitHub</a>.
+                        <br />&copy; Evelina Gabasova, 2014
+                    </p>
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><div class="contact">Contact </div></li>
+                        <li><div class="twittercontact"><a href="http://twitter.com/evelgab">@@evelgab</a></div></li>
+                        <li><div class="emailcontact"><a href="mailto:evelina@evelinag.com">evelina@@evelinag.com</a></div></li>
+                        <li><div class="githubcontact"><a href="http://github.com/evelinag">evelinag</a></div></li>
+                        <li><div class="linkedincontact"><a href="http://uk.linkedin.com/in/egabasova">egabasova</a></div></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Foundation scripts -->
+    <script src="@Model.Root/javascripts/vendor/jquery.js"></script>
+    <script src="@Model.Root/javascripts/foundation.min.js"></script>
+    <script src="@Model.Root/javascripts/foundation/foundation.interchange.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <!-- End Foundation scripts -->
+</body>
+
+</html>

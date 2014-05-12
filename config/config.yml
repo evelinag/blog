@@ -1,0 +1,19 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://evelinag.com
+gitlocation: https://github.com/evelinag/blog.git
+gitbranch: gh-pages
+title: Evelina Gabasova's blog
+description: >
+    Evelina Gabasova's personal blog. I'll be writing about machine learning and data science in F#. 
+
+source: source/
+blog: source/blog/
+blogIndex: source/blog/index.cshtml
+layouts: layouts
+content: content
+template: tools/empty-template.html
+output: output/
+deploy: deploy

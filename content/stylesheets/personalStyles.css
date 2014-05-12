@@ -1,0 +1,218 @@
+﻿
+button, .button {
+    background-color: #fff;
+    color: black
+    }
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color:#c1eef0; }
+  button:hover, button:focus, .button:hover, .button:focus {
+        color: black; }
+
+.button  { 
+	font-family:'code_boldregular'; 
+	font-weight: normal; 
+	font-style: normal;
+    font-size: larger; 
+}
+
+.top-bar {
+    background: #fff;
+}
+
+.button-group {
+    margin-top: 0.5em;
+}
+
+body {
+    font-family: 'latoregular', sans-serif;
+}
+
+h1, h1 a
+{
+    font-family: 'roboto_slabbold', serif;
+    font-weight: bold;
+    color: #00838b;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-size: 2em;
+}
+
+h2, h2 a {
+    font-family: 'roboto_slabbold', serif;
+    font-weight: normal;
+    color: #00838b;
+    font-size: 150%;
+}
+
+h3, h3 a {
+    font-family: 'roboto_slabbold', serif;
+    font-weight: normal;
+    color: #00838b
+}
+
+    h3 a:hover, h3 a:focus {
+        color: #005358;
+    }
+
+h4 {
+    font-family: 'roboto_slabbold', serif;
+    font-weight: normal;
+    color: #00838b;
+    font-size: 120%;
+}
+
+h5 {
+    font-family: 'roboto_slabregular', serif;
+    font-weight: bold;
+    color: #00838b
+}
+
+h6 {
+    font-family: 'roboto_slabregular', serif;
+    font-weight: normal;
+}
+
+.panel {
+    border-style: none;
+    background: #c1eef0;
+}
+    .panel h5 {
+	    font-family: 'code_boldregular'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+    }
+    .panel img {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .panel a {
+        font-family: 'latoregular', sans-serif;
+        font-size: medium;
+    }
+
+    .panel p {
+        font-family: 'latoregular', sans-serif;
+        font-size: medium;
+    }
+
+.contact {
+	    font-family: 'code_boldregular'; 
+	    font-weight: normal; 
+	    font-style: normal; 
+    }
+.twittercontact a {
+    background-image: url('../img/icons/twitter.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+}
+  .twittercontact a:hover, .twittercontact a:focus {
+    background-image: url('../img/icons/twitter_bw.png'); }
+
+.githubcontact a {
+    background-image: url('../img/icons/github.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+}
+  .githubcontact a:hover, .githubcontact a:focus {
+    background-image: url('../img/icons/github_bw.png'); }
+
+.emailcontact a {
+    background-image: url('../img/icons/email.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+}
+  .emailcontact a:hover, .emailcontact a:focus {
+    background-image: url('../img/icons/email_bw.png'); }
+
+
+.linkedincontact a {
+    background-image: url('../img/icons/linkedin.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+}
+
+  .linkedincontact a:hover, .linkedcontact a:focus {
+    background-image: url('../img/icons/linkedin_bw.png'); }
+
+
+article {
+  font-family: 'latoregular', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; }
+
+a {
+    font-weight: normal;
+    color: #00929b;
+}
+
+a:hover, article a:focus {
+    color: #027981;
+}
+
+
+p {
+  font-family: 'latoregular', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; }
+
+table p {
+  font-size:90%;
+  margin:0px;
+  padding:0px;
+  margin-bottom:0px
+}
+
+p.post-meta {
+  font-family: 'roboto_slabregular', serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height:150%;
+  margin:15px 10px 30px 0px;
+  text-align: right
+}
+p.post-meta-top {
+  font-family: 'roboto_slabregular', serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height:150%;
+  margin:15px 10px 30px 0px;
+  text-align: left
+}

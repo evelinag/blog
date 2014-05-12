@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{8734D006-4FFA-4CDA-ADA3-96D9930EF508}"
+	ProjectSection(SolutionItems) = preProject
+		layouts\default.cshtml = layouts\default.cshtml
+		layouts\page.cshtml = layouts\page.cshtml
+		layouts\post.cshtml = layouts\post.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{03E3BFCE-7AAD-47E2-AD0F-A199E3688D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stylesheets", "stylesheets", "{3D84E459-B3FF-44AB-8DCC-A3C58EB4F8A8}"
+	ProjectSection(SolutionItems) = preProject
+		content\stylesheets\foundation.css = content\stylesheets\foundation.css
+		content\stylesheets\personalStyles.css = content\stylesheets\personalStyles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{42B2B084-CF15-4D8D-847C-253221A396B4}"
+	ProjectSection(SolutionItems) = preProject
+		source\index.cshtml = source\index.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "blog", "blog", "{5F18818B-120B-4EE2-852C-AAD625D33417}"
+	ProjectSection(SolutionItems) = preProject
+		source\blog\index.cshtml = source\blog\index.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2014", "2014", "{D78FE275-3920-4440-A4C5-0F42A21CEEDF}"
+	ProjectSection(SolutionItems) = preProject
+		source\blog\2014\05-12-analyzing-f-network-on-twitter.md = source\blog\2014\05-12-analyzing-f-network-on-twitter.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{670D24F9-1C88-454B-940F-45DD798E0EFA}"
+	ProjectSection(SolutionItems) = preProject
+		fsblog.fsx = fsblog.fsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D84E459-B3FF-44AB-8DCC-A3C58EB4F8A8} = {03E3BFCE-7AAD-47E2-AD0F-A199E3688D94}
+		{5F18818B-120B-4EE2-852C-AAD625D33417} = {42B2B084-CF15-4D8D-847C-253221A396B4}
+		{D78FE275-3920-4440-A4C5-0F42A21CEEDF} = {5F18818B-120B-4EE2-852C-AAD625D33417}
+	EndGlobalSection
+EndGlobal
