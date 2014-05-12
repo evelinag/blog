@@ -6,7 +6,7 @@
 		"to get more interesting F# content? I analyzed community of users " +
 		"around F# on Twitter for the new F# Deep Dives book and I'd like to " +
 		"share some insights.";
-	Image = "http://www.manning.com/petricek2/petricek2_cover150.jpg";
+	Image = "http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/PageRankNetwork-small.png";
 	Tags = "networks, F#, Twitter";
 }
 
@@ -28,7 +28,7 @@ users are the most central to the network.
 Since the results are quite interesting, I'd like to share them with wider F# community.
 </div>
 <div class="large-6 columns">
-![Snapshot of the F# Twitter network](PageRankNetwork-small.png "Snapshot of the F# Twitter network")
+![Snapshot of the F# Twitter network](http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/PageRankNetwork-small.png "Snapshot of the F# Twitter network")
 </div>
 </div>
 
