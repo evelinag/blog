@@ -3,10 +3,10 @@
     Title = "Who's the most central? F# network on Twitter";
     Date = "2014-05-12T00:00:00";
     Description = "Have you ever wondered who you should follow on Twitter " +
-		"to get more interesting F# content? I analyzed community of users " +
-		"around F# on Twitter for the new F# Deep Dives book and I'd like to " +
+		"to get interesting F# content? I analyzed community of users " +
+		"around F# for the new F# Deep Dives book and I'd like to " +
 		"share some insights.";
-	Image = "http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/PageRankNetwork-small.png";
+	Image = "http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/fsharporg_egoNetwork_small.png";
 	Tags = "networks, F#, Twitter";
 }
 
@@ -38,9 +38,10 @@ Network around @@fsharporg
 ---------------------------------
 
 For the chapter, I wanted to analyze a network of F# users that are active 
-on Twitter. It think it is reasonable to assume that people interested in 
-F# follow the account of F# Software Foundation. It definitely doesn't cover
-the entire group of people interested in F# but it probably includes a significant 
+on Twitter. A good starting point is the account of the F# Software Foundation. 
+I think we can reasonably assume that followers of this account are generally 
+people interested in F#. This group definitely doesn't cover
+all the Fsharpers on Twitter but it probably includes a significant 
 part of the active community. 
 
 The network that I analyzed is centred around the 
@@ -116,7 +117,6 @@ It is interesting that in the third place we have Miguel de Icaza who is not
 directly linked with F#. The fact that he features so prominently in the 
 network shows that people connected to 
 @@fsharporg on Twitter are interested in Mono and open source development. 
-
 It is also a nice validation that the number of 
 followers corresponds to importance to some degree. 
 The full list of accounts ordered by number of their F# followers is available 
@@ -141,16 +141,17 @@ go into details here (you can find them in the chapter).
 The same measure works for estimating centrality in other types of graphs, such as social networks.
 When we look at PageRank applied to Twitter network, there are three aspects that affect centrality
 of an account:
+
 * number of followers
 * centrality of followers
 * quality of links from followers
 
 Quality of links is based on the number of accounts that a node follows. 
-For example, Alice follows only 10 accounts on Twitter whereas her friend Bob follows 1000 accounts.
+For example, Alice follows only 10 accounts on Twitter and her friend Bob follows 1000 accounts.
 Each account that Alice follows receives more weight from her than from Bob because
 Bob distributes his interest among many more accounts. 
 
-PageRank combines these aspects to estimate relative importance of each follower. 
+PageRank combines these aspects to put together relative importance of each follower. 
 How different is the list of top 20 F# accounts based on PageRank?
 
 <div class="row">
@@ -189,10 +190,10 @@ How different is the list of top 20 F# accounts based on PageRank?
 </div>
 
 Now we have Miguel de Icaza in the first place and Don Syme in the second! It seems
-that PageRank does indeed capture some extra information compared to pure number of
-followers. The full list of accounts ordered by their PageRank is available as a 
+that PageRank does indeed capture some extra information. The full list of accounts ordered by their PageRank is available as a 
 [csv file](https://github.com/evelinag/Social-network-analysis/blob/master/data/pagerank.csv).
 
+Some accounts seem to be quite underrated in terms of number of their followers.
 Here is a comparison of how the ordering changes between the two measures of
 centrality:
 
@@ -202,37 +203,43 @@ Visualization
 ----------------------------------
 
 I've also visualized the F# Twitter network using [D3.js](http://d3js.org/). 
-If you click on the image below, you'll see the F# network in svg format. 
-When you hover you mouse over a node in the visualization, you should see its Twitter name.
+If you click on the image below, you'll see the full F# network in svg format. 
+When you hover your mouse over a node in the visualization, you should see its Twitter name.
+Each node
+is also scaled proportionally to its PageRank score. The larger the node, the more important 
+it is in the network.
 
 [![Visualization of F# network](network_visualization.png)](network_visualization.svg)
 
-From the picture it is clear that the nodes are well connected with a dense centre. 
+From the picture it is clear that the graph is well connected with a dense centre. 
 There are no clear sub-communities. A structure like this is fairly typical for so-called
 scale-free networks. These are characterized by a few large hubs that are densely connected with many
 other less connected nodes. Another example of a network with this type of structure is the internet.
 
-One feature of this type of network is that it is robust when nodes drop out randomly. 
+An interesting feature of scale-free networks is that they are robust with respect to random node 
+deletion. 
 I suppose that is good news for F# on Twitter because the network won't
-fall apart if individual users leave. 
+fall apart easily if individual users leave. 
 
 Network analysis in F#
 ------------------------------------------
 
-I hope you enjoyed getting some information on how F# Twitter community looks. 
+I hope you enjoyed getting some information on how F# Twitter community looks and who are
+its key figures. 
 The whole analysis was done in F# and the source code for the chapter is available 
 from [GitHub](https://github.com/evelinag/Social-network-analysis).
 I think F# is a great tool for this kind of analysis because it combines all the steps of the process,
 from downloading and extracting the data to doing computational analysis. 
-If you're interested in details on how to do social network analysis with F#, they will appear 
+If you're interested in details on how to analyze social networks with F#, they will appear 
 in Chapter 5 of [F# Deep Dives](http://www.manning.com/petricek2/). 
 
 #### Links
 
-* [Users ordered by their number of followers](https://github.com/evelinag/Social-network-analysis/blob/master/data/indegrees.csv)
+* [Users ordered by number of their followers](https://github.com/evelinag/Social-network-analysis/blob/master/data/indegrees.csv)
 * [Users ordered by PageRank](https://github.com/evelinag/Social-network-analysis/blob/master/data/pagerank.csv)
 * [Source code for the chapter](https://github.com/evelinag/Social-network-analysis)
 * [F# Deep Dives](http://www.manning.com/petricek2/)
+* [F# Data Toolbox](http://fsprojects.github.io/FSharp.Data.Toolbox/) with library for Twitter data access
 
 
 

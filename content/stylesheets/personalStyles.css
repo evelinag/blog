@@ -177,11 +177,11 @@ article {
 
 a {
     font-weight: normal;
-    color: #00929b;
+    color: #027981;
 }
 
 a:hover, article a:focus {
-    color: #027981;
+    color: #00929b;
 }
 
 
