@@ -93,7 +93,14 @@ h6 {
     .panel p {
         font-family: 'latoregular', sans-serif;
         font-size: medium;
+
     }
+
+@media only screen and (max-width: 800px) {
+
+   .panel p { font-size: smaller; }
+
+}
 
 .contact {
 	    font-family: 'code_boldregular'; 
@@ -112,6 +119,7 @@ h6 {
     margin-right: 10px;
     background-position: 0px 0px;
     float:left;
+    margin: 5px;
 }
   .twittercontact a:hover, .twittercontact a:focus {
     background-image: url('../img/icons/twitter_bw.png'); }
@@ -128,6 +136,7 @@ h6 {
     margin-right: 10px;
     background-position: 0px 0px;
     float:left;
+    margin: 5px;
 }
   .githubcontact a:hover, .githubcontact a:focus {
     background-image: url('../img/icons/github_bw.png'); }
@@ -144,6 +153,7 @@ h6 {
     margin-right: 10px;
     background-position: 0px 0px;
     float:left;
+    margin: 5px;
 }
   .emailcontact a:hover, .emailcontact a:focus {
     background-image: url('../img/icons/email_bw.png'); }
@@ -161,6 +171,7 @@ h6 {
     margin-right: 10px;
     background-position: 0px 0px;
     float:left;
+    margin: 5px;
 }
 
   .linkedincontact a:hover, .linkedcontact a:focus {
