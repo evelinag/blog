@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "layouts", "layouts", "{8734D006-4FFA-4CDA-ADA3-96D9930EF508}"
 	ProjectSection(SolutionItems) = preProject
@@ -31,6 +31,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2014", "2014", "{D78FE275-3920-4440-A4C5-0F42A21CEEDF}"
 	ProjectSection(SolutionItems) = preProject
 		source\blog\2014\05-12-analyzing-f-network-on-twitter.md = source\blog\2014\05-12-analyzing-f-network-on-twitter.md
+		source\blog\2014\06-09-comparing-dependency-networks.md = source\blog\2014\06-09-comparing-dependency-networks.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{670D24F9-1C88-454B-940F-45DD798E0EFA}"

@@ -87,7 +87,6 @@ h6 {
     }
     .panel a {
         font-family: 'latoregular', sans-serif;
-        font-size: medium;
     }
 
     .panel p {
@@ -226,4 +225,28 @@ p.post-meta-top {
   line-height:150%;
   margin:15px 10px 30px 0px;
   text-align: left
+}
+
+th
+{
+    background-color: #e8f0f0;
+}
+
+.smallTable table {
+    border: solid 1px #dddddd; 
+    border-collapse: collapse;
+}
+
+
+.smallTable tr {
+        border: 1px solid #dddddd;
+}
+.smallTable p {
+    font-size: 90%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0.85em;
+    max-width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
 }
