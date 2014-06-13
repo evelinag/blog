@@ -115,9 +115,8 @@ can put data with different scales into one picture.
 
 Projects written in F# seem to be generally smaller. On the other hand, C# projects tend 
 to be larger both in the number of nodes and number of dependencies. 
-It is interesting that the plot looks approximately like a straight line. This means
-that the ratio of number of nodes to number of links is roughly
-the same both in F# and C# projects.  
+It is interesting that the plot looks approximately like a straight line. This indicates
+a power law relation between the number of nodes and links both in F# and C# projects.  
 
 Next question we might ask is how complex are the networks? One measure of 
 complexity in code depedendency networks might be how many dependencies are chained
@@ -365,3 +364,6 @@ I also presented a poster on this topic at
 
 <iframe src="http://wl.figshare.com/articles/1036337/embed?show_title=1" width="568" height="525" frameborder="0"></iframe>
 
+<div class="edit">
+Correction 13/6/2014: Relation between number of nodes and number of links is a power law function.
+</div>
