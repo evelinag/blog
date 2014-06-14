@@ -8,6 +8,7 @@
 		"share some insights.";
 	Image = "http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/fsharporg_egoNetwork_small.png";
 	Tags = "networks, F#, Twitter";
+	Url = "http://evelinag.com/blog/2014/05-12-analyzing-f-network-on-twitter/index.html";
 }
 
 <div class="row">

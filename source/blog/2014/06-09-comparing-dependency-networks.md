@@ -7,6 +7,7 @@
 		"terms like 'clarity' or 'maintainability' are vague and subjective. " + 
 		"What if we used some tools from network science?";
 	Image = "http://evelinag.com/blog/2014/06-09-comparing-dependency-networks/motifs-small.png";
+	Url = "http://evelinag.com/blog/2014/06-09-comparing-dependency-networks/index.html";
 }
 
 <div class="row">
