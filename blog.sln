@@ -32,6 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2014", "2014", "{D78FE275-3
 	ProjectSection(SolutionItems) = preProject
 		source\blog\2014\05-12-analyzing-f-network-on-twitter.md = source\blog\2014\05-12-analyzing-f-network-on-twitter.md
 		source\blog\2014\06-09-comparing-dependency-networks.md = source\blog\2014\06-09-comparing-dependency-networks.md
+		source\blog\2014\09-15-introducing-ariadne.md = source\blog\2014\09-15-introducing-ariadne.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{670D24F9-1C88-454B-940F-45DD798E0EFA}"
