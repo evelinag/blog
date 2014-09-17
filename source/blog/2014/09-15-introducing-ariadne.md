@@ -3,9 +3,10 @@
     Title = "Introducing Ariadne: F# library for Gaussian processes";
     Date = "2014-09-15T11:35:01";
     Tags = "F#, Gaussian process, regression, Bayesian, machine learning";
-    Description = "";
-	Image = "";
-	Url = "";
+    Description = "Gaussian processes are probabilistic models for random functions. Ariadne package" +
+	"implements basic Gaussian processes for supervised nonlinear regression.";
+	Image = "https://raw.githubusercontent.com/evelinag/Ariadne/master/docs/files/img/gp.png";
+	Url = "evelinag.com/blog/2014/09-15-introducing-ariadne/index.html";
 }
 
 <div class="row">
