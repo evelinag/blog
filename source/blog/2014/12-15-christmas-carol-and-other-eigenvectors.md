@@ -402,8 +402,8 @@ $d$ most important eigenvectors.
 With eigenvectors ready, we can compute projection of 
 our data set onto a specified number of dimensions $d$. 
 	
-	$$$
-	\tilde{X} = E_d^T \, X
+$$$
+\tilde{X} = E_d^T \, X
 
 $\tilde{X} is an approximation of our original data matrix $X$ in $d$ dimensions
 and $E_d$ is the eigenvector matrix formed of $d$ most important eigenvectors. 
