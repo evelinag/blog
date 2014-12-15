@@ -142,17 +142,13 @@ use bigrams for simple language idenfication.
 
 Generally, other symbols than letters can be included into bigrams as well. 
 Pairs of letters and spaces show what are common characters at the beginning
-and the end of words. Here I define all possible bigrams that I'm interested in. 
+and the end of words. Here I define all possible bigrams that I'm interested in: 
+this piece of code generates simply all possible pairs of letters.
 
-	let alphabet = " abcdefghijklmnopqrstuvwxyz"
+	let alphabet = "abcdefghijklmnopqrstuvwxyz"
 	let letterPairs =
 		[| for a in alphabet do 
-			for b in alphabet do
-				if a <> ' ' && b <> ' ' then yield [|a; b|] |]
-
-This piece of code generates all possible pairs of letters (and spaces).
-I skip the bigram formed of two consecutive spaces because it does not carry
-information about the language.
+			for b in alphabet -> [|a; b|] |]
 
 Finally, we can write a function that turns a book into a sequence
 of bigram counts. When we have sequence of letters in a book, it is 
@@ -404,6 +400,7 @@ our data set onto a specified number of dimensions $d$.
 	
 $$$
 \tilde{X} = E_d^T \, X
+
 
 $\tilde{X}$ is an approximation of our original data matrix $X$ in $d$ dimensions
 and $E_d$ is the eigenvector matrix formed of $d$ most important eigenvectors. 
