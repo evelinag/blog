@@ -1,7 +1,4 @@
 ﻿@using System.Linq
-@helper PostDate(DateTime rawDate) {
-    <time datetime="@rawDate.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss")" pubdate data-updated="true">@rawDate.ToString("MMM d, yyyy")</time>
-}
 
 <!doctype html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
@@ -16,24 +13,24 @@
 
     <!-- Twitter cards -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@("@evelgab")">
+    <meta name="twitter:creator" content="@(" @evelgab")">
     <meta name="twitter:title" content="@Title">
     <meta name="twitter:description" content="@Description">
     @if (Image != "")
     {
-        <meta name="twitter:image" content="@Image">
+    <meta name="twitter:image" content="@Image">
     }
-    <!-- End Twitter cards -->
+    <!-- End Twitter cards --> 
 
-    <link rel="stylesheet" href="@Model.Root/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/foundation.min.css"> 
     <link rel="stylesheet" href="@Model.Root/stylesheets/fontsStylesheet.css">
     <link rel="stylesheet" href="@Model.Root/stylesheets/personalStyles.css">
     <link rel="stylesheet" href="@Model.Root/stylesheets/pygment_trac.css">
 
     <link rel="shortcut icon" href="@Model.Root/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<link rel="alternate" type="application/rss+xml" title="Evelina Gabasova's blog" href="http://evelinag.com/rss.xml" />
+
+    <link rel="alternate" type="application/rss+xml" title="Evelina Gabasova's blog" href="http://evelinag.com/rss.xml" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,7 +55,7 @@
 
     </script>
     <!-- End Google Analytics -->
-</head>
+</head> 
 
 
 <body>
@@ -67,51 +64,22 @@
         <div class="medium-12 columns">
 
             <div class="logo">
-                <a href="http://www.evelinag.com"><h1>Evelina Gabasova<apostrophe>'</apostrophe>s blog</h1></a>
+                <a href="http://www.evelinag.com"><h1><justname>Evelina Gabasova</justname></h1></a>
             </div>
-
         </div>
     </div>
     <!-- End Nav -->
     <!-- Main Page Content and Sidebar -->
     <div class="row">
-
-        <!-- Main Blog Content -->
-        <div class="large-9 medium-9 small-12 columns" role="content">
+         
+        <!-- Main Blog Content --> 
+        <div class="large-12 medium-12 small-12 columns" role="content">
             @RenderBody()
-        </div> 
+        </div>
         <!-- End Main Content -->
-
-        <!-- Sidebar -->
-        <aside class="large-3 medium-3 columns">
-            <div class="panel">
-                <h5>About me</h5>
-
-                <img src="@Model.Root/img/me_bw_square_small.jpg">
-                <p>
-                    Welcome to my blog! <br />
-                    I'm be writing about data science and machine learning using
-                    the F# programming language. <br />
-                    I'm Evelina Gabasova, currently a PhD student in statistical genomics
-                    at Cambridge University in
-                    MRC Biostatistics Unit. <a href="@Model.Root/about/index.html">More information...</a>
-                </p>
-
-                <ul class="no-bullet">
-                    <li><div class="twittercontact"><a href="http://twitter.com/evelgab">@@evelgab</a></div></li>
-                    <li><div class="emailcontact"><a href="mailto:evelina@evelinag.com">evelina@@evelinag.com</a></div></li>
-                    <li><div class="githubcontact"><a href="http://github.com/evelinag">evelinag</a></div></li>
-                    <li><div class="linkedincontact"><a href="http://uk.linkedin.com/in/egabasova">egabasova</a></div></li>
-                    <li><div class="lanyrdcontact"><a href="http://lanyrd.com/profile/evelgab/">evelgab</a></div></li>
-                    <li><div class="rsscontact"><a href="http://evelinag.com/rss.xml">RSS feed</a></div></li>
-                </ul>
-            </div>
-        </aside>
-        <!-- End Sidebar -->
     </div>
     <!-- End Main Content and Sidebar -->
-
-
+   
     <!-- Footer -->
     <footer class="footer">
         <div class="row full-width">
@@ -119,18 +87,8 @@
                 <i class="fi-laptop"></i>
                 <h4>About</h4>
                 <p>
-                    You can find more about me at 
-                    <a href="@Model.Root/about/index.html">my professional web page</a>.
-                    It includes details on my 
-                    <a href="@Model.Root/about/index.html#publications">academic research</a>
-                    and 
-                    <a href="@Model.Root/about/index.html#talks">talks</a> that I gave. 
-                    There is a list of 
-                    <a href="@Model.Root/about/index.html#fsharptalks">my F# talks</a>,
-                    which contains several recordings that you can watch. 
-                    See also a list of
-                    <a href="@Model.Root/about/index.html#projects">projects</a>
-                     that I am involved in.
+                    You can find more about my activities on <a href="@Model.Root/index.html">my blog</a>
+                    where I write about using F# for data science.
                 </p>
                 <p>
                     This site is generated using <a href="https://github.com/fsprojects/FsBlog">FsBlog</a> and hosted on <a href="http://github.com/evelinag">GitHub</a>.
@@ -148,12 +106,9 @@
                     <li>Subscribe to my <a href="http://evelinag.com/rss.xml">blog</a></li>
                 </ul>
             </div>
-        </div> 
+        </div>
     </footer>
-
-
     <!-- End Footer -->
-
     <!-- Foundation scripts -->
     <script src="@Model.Root/javascripts/vendor/jquery.js"></script>
     <script src="@Model.Root/javascripts/foundation.min.js"></script>
@@ -165,4 +120,4 @@
 
 </body>
 
-</htm>
+</html>

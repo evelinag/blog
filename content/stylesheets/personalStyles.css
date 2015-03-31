@@ -1,18 +1,25 @@
-﻿
-button, .button {
-    background-color: #fff;
-    color: black
+﻿button, .button {
+    background-color: #c1eef0;
+    color: black;
+    border-color: #fff;
+    border-left-width: 0.1em;
+    border-right-width: 0.1em;
     }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color:#c1eef0; }
+    background-color: #e1f7f8;
+    color: black;
+  }
   button:hover, button:focus, .button:hover, .button:focus {
         color: black; }
+
 
 .button  { 
 	font-family:'code_boldregular'; 
 	font-weight: normal; 
 	font-style: normal;
-    font-size: larger; 
+    font-size: larger;
+    letter-spacing: 0.12em;
+    color:black;
 }
 
 .top-bar {
@@ -23,8 +30,26 @@ button, .button {
     margin-top: 0.5em;
 }
 
+.sub-nav dd.active a{
+   background: #00b3be;
+   color: white;
+}
+
+.sub-nav dd a{
+    color:black;
+}
+
+.sub-nav dd.active a:hover {
+    background: #00b3be;
+}
+
+
 body {
     font-family: 'latoregular', sans-serif;
+}
+
+li {
+    margin: 0.5em;
 }
 
 h1, h1 a
@@ -72,9 +97,25 @@ h6 {
     font-weight: normal;
 }
 
+
+a {
+    font-weight: normal;
+    color: #00929b;
+}
+
+a:hover, a:focus, article a:focus {
+    color: #027981;
+    text-decoration: underline;
+}
+
+.no-bullet {
+    padding-bottom: 5em;
+}
+
 .panel {
     border-style: none;
     background: #c1eef0;
+    padding-bottom: 5em;
 }
     .panel h5 {
 	    font-family: 'code_boldregular'; 
@@ -101,11 +142,51 @@ h6 {
 
 }
 
+.logo h1 {
+    font-family: 'code_pro_light';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 400%;
+    color: black;
+    line-height:160%;
+}
+
+.logo a, .logo a:hover, .logo a:focus {
+    text-decoration: none;
+}
+
+.logo apostrophe {
+    color:#00b3be
+}
+.logo h1 justname {
+    color:#00b3be;
+    font-size: 120%;
+}
+
+h1.about {
+    font-family: 'code_boldregular';
+    letter-spacing: 0.12em;
+    margin-top: 1.5em;
+}
+h1.aboutfirst {
+    font-family: 'code_boldregular';
+    letter-spacing: 0.12em;
+}
+
+listitem {
+    margin-right: 1em;
+}
+
 .contact {
 	    font-family: 'code_boldregular'; 
 	    font-weight: normal; 
 	    font-style: normal; 
     }
+
+.no-bullet {
+    margin-bottom: 2em;
+}
+
 .twittercontact a {
     background-image: url('../img/icons/twitter.png');
     background-repeat: no-repeat;
@@ -177,6 +258,42 @@ h6 {
     background-image: url('../img/icons/linkedin_bw.png'); }
 
 
+.lanyrdcontact a {
+    background-image: url('../img/icons/lanyrd.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+    margin: 5px;
+}
+
+  .lanyrdcontact a:hover, .lanyrdcontact a:focus {
+    background-image: url('../img/icons/lanyrd_bw.png'); }
+
+.rsscontact a {
+    background-image: url('../img/icons/rss.png');
+    background-repeat: no-repeat;
+    content: "";
+    display: inline;
+    height: 32px;
+    position: relative;
+    width: 32px;
+    text-indent: -999999em;
+    margin-right: 10px;
+    background-position: 0px 0px;
+    float:left;
+    margin: 5px;
+}
+
+  .rsscontact a:hover, .rsscontact a:focus {
+    background-image: url('../img/icons/rss_bw.png'); }
+
 article {
   font-family: 'latoregular', sans-serif;
   font-weight: normal;
@@ -184,15 +301,6 @@ article {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
-
-a {
-    font-weight: normal;
-    color: #00929b;
-}
-
-a:hover, article a:focus {
-    color: #027981;
-}
 
 
 p {
@@ -253,4 +361,22 @@ th
 
 .edit {
     color: #535353;
+}
+
+.full-width {
+  max-width: 1000px;
+}
+
+.footer {
+  background-color: #c1eef0;
+  padding: 2rem 4rem;
+  text-align: left;
+  color: black;
+  margin-top: 4em;
+}.footer .footer-links {
+    text-align:left
+}
+
+.footer li {
+    margin:0em;
 }

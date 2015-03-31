@@ -45,5 +45,17 @@
          url('../fonts/code_bold-webfont.svg#code_boldregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'code_pro_light';
+    src: url('../fonts/Code_Pro_Light_Demo-webfont.eot');
+    src: url('../fonts/Code_Pro_Light_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.woff2') format('woff2'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.woff') format('woff'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.ttf') format('truetype'),
+         url('../fonts/Code_Pro_Light_Demo-webfont.svg#code_pro_light_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
