@@ -108,6 +108,8 @@ data science and machine learning.
 
 <h2 id="fsharptalks">F# talks</h2>
 
+*  [Understanding cancer behaviour with F#](https://skillsmatter.com/skillscasts/6154-understanding-cancer-behaviour-with-fsharp) -
+   F# eXchange conference, London, April 2015. [Download slides](https://s3-eu-west-1.amazonaws.com/evelinag/fsExchange.pdf)
 *  [Clustering cancer data with Bayesian nonparametrics and F#](https://www.youtube.com/watch?v=-nVl-LMsy-g) -
    Prague machine learning meetup, March 2015. [Download slides](https://s3-eu-west-1.amazonaws.com/evelinag/mlmu-2015-03.pdf)
 *  Understanding cancer behaviour with F# -
