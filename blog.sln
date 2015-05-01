@@ -36,6 +36,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "about", "about", "{354B73A2
 		source\about\index.md = source\about\index.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2015", "2015", "{FB4B34BB-0BE8-41C3-BC5C-A71C4FCAE662}"
+	ProjectSection(SolutionItems) = preProject
+		source\blog\2015\04-18-create-beautiful-plots-in-f-with-ggplot.md = source\blog\2015\04-18-create-beautiful-plots-in-f-with-ggplot.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +50,6 @@ Global
 		{5F18818B-120B-4EE2-852C-AAD625D33417} = {42B2B084-CF15-4D8D-847C-253221A396B4}
 		{D78FE275-3920-4440-A4C5-0F42A21CEEDF} = {5F18818B-120B-4EE2-852C-AAD625D33417}
 		{354B73A2-681D-4ACB-B1C7-B6A8DBD5882B} = {42B2B084-CF15-4D8D-847C-253221A396B4}
+		{FB4B34BB-0BE8-41C3-BC5C-A71C4FCAE662} = {5F18818B-120B-4EE2-852C-AAD625D33417}
 	EndGlobalSection
 EndGlobal

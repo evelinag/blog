@@ -122,7 +122,7 @@ data science and machine learning.
    *f(by)* functional programming programming conference, Minsk, November 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/Twitter/2014-11-Twitter_Fby.pdf)
 *  Detangling software dependency networks -
    BuildStuff conference, November 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/CodeNetworks/2014-11-DependencyNetworks_BuildStuff.pdf)
-*  Understanding social networks with F# -
+*  [Understanding social networks with F#](http://www.infoq.com/presentations/analysis-social-network) -
    BuildStuff conference, November 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/Twitter/2014-11-Twitter_BuildStuff.pdf)
 *  [Data science with F#: analysing social networks](https://skillsmatter.com/skillscasts/5672-data-science-with-fsharp-social-network-analysis-evelina-gabasova) -
    F#unctional Londoners users group, September 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/Twitter/2014-09-Twitter_FunctionalLondoners.pdf)
