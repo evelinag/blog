@@ -112,7 +112,7 @@ data science and machine learning.
    F# eXchange conference, London, April 2015. [Download slides](https://s3-eu-west-1.amazonaws.com/evelinag/fsExchange.pdf)
 *  [Clustering cancer data with Bayesian nonparametrics and F#](https://www.youtube.com/watch?v=-nVl-LMsy-g) -
    Prague machine learning meetup, March 2015. [Download slides](https://s3-eu-west-1.amazonaws.com/evelinag/mlmu-2015-03.pdf)
-*  Understanding cancer behaviour with F# -
+*  [Understanding cancer behaviour with F#](https://vimeo.com/127015558) -
    Lambda Days conference, Krakow, February 2015. [Download slides](https://github.com/evelinag/Projects/blob/master/FSharpCancerResearch/LambdaDays.pdf)
 *  [Statistical genomics using F#](http://www.dotnetrocks.com/default.aspx?showNum=1086) interview
    for .NET Rocks! podcast with Carl Franklin and Richard Campbell, January 2015. [Download mp3](http://s3.amazonaws.com/dnr/dotnetrocks_1086_genomics.mp3)
