@@ -22,7 +22,8 @@
 	<dd data-magellan-arrival="contact"><a href="#contact" class="button">Contact me</a></dd>
 	<dd ><a href="http://evelinag.com" class="button">Blog</a></dd>
   </dl>
-</div><!-- End Navigation -->
+</div>
+<!-- End Navigation -->
  
 <div class="row">
 <div class="medium-4 columns">
@@ -88,26 +89,27 @@ data science and machine learning.
 </div>
 </div>
 
-<h2 id="academictalks">Academic</h2>
-
-*  [Integrative clustering of genomic data from multiple platforms for personalised medicine](https://s3-eu-west-1.amazonaws.com/evelinag/nips2014.pdf) [poster] 
-   Machine Learning for Clinical Data Analysis, Healthcare and Genomics workshop, NIPS 2014.
-*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/egabasova_isba2014.pdf) [talk] 
-   International Society for Bayesian Analysis (ISBA) world meeting, Cancun, Mexico 2014. 
-*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/ibc2014.pdf) [talk] 
-   XXVIIth International Biometric Conference (IBC), Florence, Italy 2014. 
-*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/msr2014.pdf) [poster] 
-   Microsoft Research PhD Summer School, Cambridge 2014. 
-*  [Analysing programming languages using dependency networks](https://s3-eu-west-1.amazonaws.com/evelinag/CNDayPoster2014.pdf) [poster] 
-   Cambridge Networks Day conference, Cambridge 2014. <br />
-   [Accompanying blogpost](http://evelinag.com/blog/2014/06-09-comparing-dependency-networks/index.html)
-*  [Bayesian nonparametric multitask clustering of time series data](https://s3-eu-west-1.amazonaws.com/evelinag/wiml_poster2013.pdf) [poster] 
-   Women in Machine Learning workshop, NIPS 2013. 
-*  [Clustering of gene expression time series data from multiple experiments](https://s3-eu-west-1.amazonaws.com/evelinag/egabasova_mlss2013.pdf) [poster] 
-   Machine Learning Summer School, Tuebingen, Germany 2013. 
-
 <h2 id="fsharptalks">F# talks</h2>
 
+See my upcoming talks at [Lanyrd](http://lanyrd.com/profile/evelgab/).
+
+*  [How machine learning helps cancer research](https://vimeo.com/144989925) - 
+   [Oredev](http://oredev.org/), Malmo, November 2015.
+   [Slides](http://evelinag.com/ml-cancer-research/#/)
+*  [Putting fun into data analysis with F#](https://vimeo.com/144816160) - 
+   [Oredev](http://oredev.org/), Malmo, November 2015.
+   [Slides and code](https://github.com/evelinag/DataAnalysis-Oredev)
+*  [How machine learning helps cancer research](https://www.youtube.com/watch?v=vNiyDbcfJDE) - 
+   [Strangeloop](http://www.thestrangeloop.com/), St. Louis, September 2015.
+   [Slides and code](https://github.com/evelinag/cancer-research-and-ML)
+*  Data science the functional way - 
+   [QCon Rio de Janeiro](http://qconrio.com/), August 2015. 
+   [Slides and code](https://github.com/evelinag/SentimentAnalysis-QConRio)
+*  [Machine learning the F# way](https://skillsmatter.com/skillscasts/6445-machine-learning-the-f-sharp-way) -
+   [Progressive .NET tutorials](https://skillsmatter.com/conferences/6859-progressive-dotnet-2015), London, July 2015. 
+   [Slides and code](https://github.com/evelinag/SentimentAnalysisDemo)
+*  [Machine learning the F# way](https://vimeo.com/130256616) - 
+   [NCrafts](http://ncrafts.io/) conference, France, April 2015. 
 *  [Understanding cancer behaviour with F#](https://skillsmatter.com/skillscasts/6154-understanding-cancer-behaviour-with-fsharp) -
    F# eXchange conference, London, April 2015. [Download slides](https://s3-eu-west-1.amazonaws.com/evelinag/fsExchange.pdf)
 *  [Clustering cancer data with Bayesian nonparametrics and F#](https://www.youtube.com/watch?v=-nVl-LMsy-g) -
@@ -127,6 +129,23 @@ data science and machine learning.
 *  [Data science with F#: analysing social networks](https://skillsmatter.com/skillscasts/5672-data-science-with-fsharp-social-network-analysis-evelina-gabasova) -
    F#unctional Londoners users group, September 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/Twitter/2014-09-Twitter_FunctionalLondoners.pdf)
 
+<h2 id="academictalks">Academic</h2>
+
+*  [Integrative clustering of genomic data from multiple platforms for personalised medicine](https://s3-eu-west-1.amazonaws.com/evelinag/nips2014.pdf) [poster] 
+   Machine Learning for Clinical Data Analysis, Healthcare and Genomics workshop, NIPS 2014.
+*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/egabasova_isba2014.pdf) [talk] 
+   International Society for Bayesian Analysis (ISBA) world meeting, Cancun, Mexico 2014. 
+*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/ibc2014.pdf) [talk] 
+   XXVIIth International Biometric Conference (IBC), Florence, Italy 2014. 
+*  [Bayesian integrative clustering for genomics datasets](https://s3-eu-west-1.amazonaws.com/evelinag/msr2014.pdf) [poster] 
+   Microsoft Research PhD Summer School, Cambridge 2014. 
+*  [Analysing programming languages using dependency networks](https://s3-eu-west-1.amazonaws.com/evelinag/CNDayPoster2014.pdf) [poster] 
+   Cambridge Networks Day conference, Cambridge 2014. <br />
+   [Accompanying blogpost](http://evelinag.com/blog/2014/06-09-comparing-dependency-networks/index.html)
+*  [Bayesian nonparametric multitask clustering of time series data](https://s3-eu-west-1.amazonaws.com/evelinag/wiml_poster2013.pdf) [poster] 
+   Women in Machine Learning workshop, NIPS 2013. 
+*  [Clustering of gene expression time series data from multiple experiments](https://s3-eu-west-1.amazonaws.com/evelinag/egabasova_mlss2013.pdf) [poster] 
+   Machine Learning Summer School, Tuebingen, Germany 2013. 
 
 <p><a name="projects"></a></p>
 <h1 data-magellan-destination="projects" class="about">Software projects</h1>
