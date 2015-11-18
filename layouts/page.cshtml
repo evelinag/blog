@@ -1,4 +1,136 @@
-@{
-    Layout = "default";
+@using System.Linq
+@helper PostDate(DateTime rawDate)
+{
+    <time datetime="@rawDate.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss")" pubdate data-updated="true">@rawDate.ToString("MMM d, yyyy")</time>
 }
-@RenderBody()
+
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>@Title</title>
+    <meta name="description" content="@Description" />
+    <meta name="author" content="Evelina Gabasova" />
+    <meta name="copyright" content="Evelina Gabasova 2014" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@("@evelgab")">
+    <meta name="twitter:title" content="@Title">
+    <meta name="twitter:description" content="@Description">
+    @if (Image != "")
+    {
+        <meta name="twitter:image" content="@Image">
+    }
+    <!-- End Twitter cards -->
+
+    <link rel="stylesheet" href="@Model.Root/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/fontsStylesheet.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/personalStyles.css">
+    <link rel="stylesheet" href="@Model.Root/stylesheets/pygment_trac.css">
+
+    <link rel="shortcut icon" href="@Model.Root/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="alternate" type="application/rss+xml" title="Evelina Gabasova's blog" href="http://evelinag.com/rss.xml" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- FSharp.Formatting Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="@Model.Root/fsharp.formatting/tooltips.css" />
+    <script type="text/javascript" src="@Model.Root/fsharp.formatting/tooltips.js"></script>
+    <script type="text/javascript" src="@Model.Root/javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-50895981-1', 'evelinag.com');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+</head>
+
+
+<body>
+    <!-- Nav Bar -->
+    <div class="row">
+        <div class="medium-12 columns">
+
+            <div class="logo">
+                <a href="http://www.evelinag.com"><h1>Evelina Gabasova<apostrophe>'</apostrophe>s blog</h1></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Nav -->
+    <!-- Main Page Content and Sidebar -->
+    <div class="row">
+        <div class="large-10 medium-12 small-12 columns" role="content">
+            @RenderBody()
+        </div>
+    </div>
+    <!-- End Main Content and Sidebar -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row full-width">
+            <div class="small-12 medium-6 large-8 columns">
+                <i class="fi-laptop"></i>
+                <h4>About</h4>
+                <p>
+                    You can find more about me at
+                    <a href="@Model.Root/about/index.html">my professional web page</a>.
+                    It includes details on my
+                    <a href="@Model.Root/about/index.html#publications">academic research</a>
+                    and
+                    <a href="@Model.Root/about/index.html#talks">talks</a> that I gave.
+                    There is a list of
+                    <a href="@Model.Root/about/index.html#fsharptalks">my F# talks</a>,
+                    which contains several recordings that you can watch.
+                    See also a list of
+                    <a href="@Model.Root/about/index.html#projects">projects</a>
+                    that I am involved in.
+                </p>
+                <p>
+                    This site is generated using <a href="https://github.com/fsprojects/FsBlog">FsBlog</a> and hosted on <a href="http://github.com/evelinag">GitHub</a>.
+                    <br />By <a href="https://plus.google.com/+EvelinaGabasova?rel=author">Evelina Gabasova</a>, 2015
+                </p>
+            </div>
+            <div class="small-12 medium-6 large-4 columns">
+                <h4 class="footer-links">Contact information</h4>
+                <ul class="footer-links">
+                    <li>Twitter: <a href="http://twitter.com/evelgab">@@evelgab</a></li>
+                    <li>Email: <a href="mailto:evelina@evelinag.com">evelina@@evelinag.com</a></li>
+                    <li>Github: <a href="http://github.com/evelinag">evelinag</a></li>
+                    <li>LinkedIn: <a href="http://uk.linkedin.com/in/egabasova">egabasova</a></li>
+                    <li>My talks on <a href="http://lanyrd.com/profile/evelgab/">Lanyrd</a></li>
+                    <li>Subscribe to my <a href="http://evelinag.com/rss.xml">blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- End Footer -->
+    <!-- Foundation scripts -->
+    <script src="@Model.Root/javascripts/vendor/jquery.js"></script>
+    <script src="@Model.Root/javascripts/foundation.min.js"></script>
+    <script src="@Model.Root/javascripts/foundation/foundation.interchange.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <!-- End Foundation scripts -->
+
+</body>
+
+</htm>
