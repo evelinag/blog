@@ -44,7 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "about", "about", "{354B73A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2015", "2015", "{FB4B34BB-0BE8-41C3-BC5C-A71C4FCAE662}"
 	ProjectSection(SolutionItems) = preProject
-		source\blog\2015\11-17-f-tackles-james-bond.md = source\blog\2015\11-17-f-tackles-james-bond.md
+		source\blog\2015\11-18-f-tackles-james-bond.md = source\blog\2015\11-18-f-tackles-james-bond.md
+		source\blog\2015\11-20-using-ggplot2-from-f.md = source\blog\2015\11-20-using-ggplot2-from-f.md
 	EndProjectSection
 EndProject
 Global
