@@ -3,7 +3,9 @@
     Title = "The Star Wars social network";
     Date = "2015-12-15T01:16:07";
     Tags = "F#,R,visualization,FsAdvent";
-    Description = "";
+    Description = "I extracted the social networks from all the Star Wars movies and analyzed their structure.";
+	Image = "http://evelinag.com/blog/2015/12-15-star-wars-social-network/episode4.png";
+	Url = "http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html";
 }
 
 <div class="row">
@@ -14,7 +16,7 @@ new film in the Star Wars franchise, The Force Awakens. Meanwhile, I decided to 
 whole 6-movie cycle from a quantitative point of view and extract the Star Wars social networks, 
 both within each film and across the whole Star Wars universe. 
 Looking at the social network structure reveals some surprising differences between the
-original trilogy and the prequels.
+original trilogy and the prequels.	
 
 </div>
 <div class="medium-5 columns">
@@ -32,7 +34,7 @@ to the <a href="#how">How I did the analysis</a> section. But let's start with s
 This is the social network from all the 6 movies combined together:
 
 ![Star Wars social network](starwars.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/interactions.html)
+[Open network](interactions.html)
 
 You can open the network in a full window which will show an interactive visualization of the network
 where you can drag individual nodes around. If you hover over the individual nodes, you'll see
@@ -88,7 +90,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode I: The Phantom Menace
 
 ![Episode 1 network](episode1.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode1-interactions.html)
+[Open network](episode1-interactions.html)
 
 </div>
 <div class="medium-6 columns">
@@ -96,7 +98,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode II: Attack of the Clones
 
 ![Episode 2 network](episode2.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode2-interactions.html)
+[Open network](episode2-interactions.html)
 
 </div>
 </div>
@@ -106,7 +108,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode III: Revenge of the Sith
 
 ![Episode 3 network](episode3.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode3-interactions.html)
+[Open network](episode3-interactions.html)
 
 </div>
 <div class="medium-6 columns">
@@ -114,7 +116,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode IV: A New Hope
 
 ![Episode 4 network](episode4.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode4-interactions.html)
+[Open network](episode4-interactions.html)
 
 </div>
 </div>
@@ -124,7 +126,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode V: The Empire Strikes Back
 
 ![Episode 5 network](episode5.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode5-interactions.html)
+[Open network](episode5-interactions.html)
 
 </div>
 <div class="medium-6 columns">
@@ -132,7 +134,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 #### Episode VI: Return of the Jedi
 
 ![Episode 6 network](episode6.png)
-[Open network](https://s3-eu-west-1.amazonaws.com/evelinag/star-wars/episode6-interactions.html)
+[Open network](episode6-interactions.html)
 
 </div>
 </div>
@@ -565,7 +567,7 @@ results and filtered out the names that were actual names. This resulted in the 
 To construct the social networks, I wanted to extract all the occasions when two characters talk to each other. 
 This happens if two characters speak within the same scene (I decided to ignore situations when people
 talk with each other over a transmitter, and therefore across scenes). Extracting characters that are 
-part of the same dialogue was now similified because I could just look at the list of characters I put together
+part of the same dialogue was now simplified because I could just look at the list of characters I put together
 in the previous step. 
 
 	let characters = 
@@ -748,7 +750,7 @@ of the D3 JavaScript file is the following part:
 In the previous steps I saved all the networks in JSON. Here I loaded them and defined the nodes and
 links using the data from the JSON. For each node, I also added a colour for each node, and a `value` specifying
 the importance (given by the number of times the character spoke in the script). This defines
-the radius `r` attribute for the node object, scaling each node realative to its importance in the network. 
+the radius `r` attribute for the node object, scaling each node relative to its importance in the network. 
 Similarly for the links, I also stored the strength of each link in the JSON file, and here I used it to 
 define the `stroke-width` of each link.
 

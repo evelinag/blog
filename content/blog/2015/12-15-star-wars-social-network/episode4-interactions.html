@@ -29,7 +29,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("starwars-episode-4-interactions-allCharacters.json", function(error, graph) {
+d3.json("networks/starwars-episode-4-interactions-allCharacters.json", function(error, graph) {
   if (error) throw error;
 
   force
