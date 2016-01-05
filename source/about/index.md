@@ -93,6 +93,10 @@ data science and machine learning.
 
 See my upcoming talks at [Lanyrd](http://lanyrd.com/profile/evelgab/).
 
+*  [Developer on Fire: Love of Data](http://developeronfire.com/Podcast/Episodes/evelina-gabasova-love-of-data) - podcast interview. December 2015.
+*  F# via machine learning - 
+   [Progressive F# Tutorials](https://skillsmatter.com/conferences/6762-progressive-f-tutorials-2015), London, December 2015.
+   [Slides](http://evelinag.com/LanguageRecognizer-slides/#/) and [code](https://github.com/evelinag/LanguageRecognizer)
 *  [How machine learning helps cancer research](https://vimeo.com/144989925) - 
    [Oredev](http://oredev.org/), Malmo, November 2015.
    [Slides](http://evelinag.com/ml-cancer-research/#/)
