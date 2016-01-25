@@ -25,6 +25,8 @@ If you have seen the new addition to the Star Wars franchise - The Force Awakens
 </div>
 </div>
 
+<!-- more -->
+
 Recently, the script for the new Star Wars movie became available on the
 [imsdb](http://www.imsdb.com/scripts/Star-Wars-The-Force-Awakens.html) website. Of course I had to look at it to see how does the social network structure compare to the previous films. If you're interested in the technical details of how I extracted the data with F# and what were some of the new challenges in the new script, see my summary in the <a href="#how">How I did it</a> section. 
 
