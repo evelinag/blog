@@ -28,6 +28,8 @@ original trilogy and the prequels.
 
 <!-- more -->
 
+*[Update: Read my analysis of Episode VII, Star Wars: The Force Awakens.](http://evelinag.com/blog/2016/01-25-social-network-force-awakens/index.html)
+
 If you're interested in technical details of how I extracted the data, head down 
 to the <a href="#how">How I did the analysis</a> section. But let's start with some visualizations.
 
@@ -139,7 +141,7 @@ Now let's look at the networks in individual films. Notice how the number of nod
 </div>
 </div>
 
-### Importance of characters
+<h3 id="centrality"> Importance of characters </h3>
 
 The individual networks again show that the prequel trilogy has more characters and more interactions
 overall. The original episodes have less characters, but they interact more with each other. 
@@ -815,3 +817,5 @@ I hope you endjoyed the visualizations, and *may the force be with you*!
 - Source code: [github.com/evelinag/StarWars-social-network](https://github.com/evelinag/StarWars-social-network)
 - Extracted networks in JSON format: [github.com/evelinag/StarWars-social-network/tree/master/networks](https://github.com/evelinag/StarWars-social-network/tree/master/networks)
 - Screenplays: [imsdb.com](http://www.imsdb.com/)
+- [My analysis of Episode VII, Star Wars: The Force Awakens](http://evelinag.com/blog/2016/01-25-social-network-force-awakens/index.html)
+

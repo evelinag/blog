@@ -11,7 +11,7 @@
 }
 
 
-@foreach (var post in Enumerable.Take(Model.Posts, 5))
+@foreach (var post in Enumerable.Take(Model.Posts, 15))
 {
     <h3 class="h2link">
         <a href="@Model.Root/blog/@post.Url/index.html">@post.Title</a>
