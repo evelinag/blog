@@ -20,6 +20,7 @@
 	<dd data-magellan-arrival="projects"><a href="#projects" class="button">Projects</a></dd>
 	<dd data-magellan-arrival="cv"><a href="#cv" class="button">CV</a></dd>
 	<dd data-magellan-arrival="contact"><a href="#contact" class="button">Contact me</a></dd>
+	<dd ><a href="http://www.mlshirts.net" class="button">Machine learning t-shirts</a></dd>
 	<dd ><a href="http://evelinag.com" class="button">Blog</a></dd>
   </dl>
 </div>
@@ -89,9 +90,14 @@ data science and machine learning.
 </div>
 </div>
 
-<h2 id="fsharptalks">F# talks</h2>
-
 See my upcoming talks at [Lanyrd](http://lanyrd.com/profile/evelgab/).
+
+### 2016
+
+*  Spice up your website with machine learning! - [NDC London](http://ndc-london.com/), January 2016.
+   [Slides](http://evelinag.com/talk-fssnip-recommender/) and [code](https://github.com/evelinag/FsSnip.Website).
+
+### 2015
 
 *  [Developer on Fire: Love of Data](http://developeronfire.com/Podcast/Episodes/evelina-gabasova-love-of-data) - podcast interview. December 2015.
 *  F# via machine learning - 
@@ -122,6 +128,9 @@ See my upcoming talks at [Lanyrd](http://lanyrd.com/profile/evelgab/).
    Lambda Days conference, Krakow, February 2015. [Download slides](https://github.com/evelinag/Projects/blob/master/FSharpCancerResearch/LambdaDays.pdf)
 *  [Statistical genomics using F#](http://www.dotnetrocks.com/default.aspx?showNum=1086) interview
    for .NET Rocks! podcast with Carl Franklin and Richard Campbell, January 2015. [Download mp3](http://s3.amazonaws.com/dnr/dotnetrocks_1086_genomics.mp3)
+
+### 2014
+
 *  [Understanding social networks with F#](https://vimeo.com/113679078) -
    New York City F# user group, December 2014. [Download slides](https://github.com/evelinag/Projects/blob/master/Twitter/2014-12-Twitter_NYC.pdf) 
 *  Understanding social networks with F# -
