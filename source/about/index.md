@@ -38,14 +38,15 @@
 
 <h1 class="aboutfirst">Evelina Gabasova</h1>
 
-I am currently finishing my PhD in bioinformatics at University of Cambridge in the
+I am currently working as a postdoctoral researcher in the [MRC Cancer Unit](http://www.mrc-cu.cam.ac.uk/)
+at University of Cambridge, working with [Prof. Ashok Venkitaraman](http://www.mrc-cu.cam.ac.uk/venkitaraman.html)
+on mathematical models of early carcinogenesis in epithelial tissues. 
+I am interested in developing machine learning models for integrative analysis 
+of heterogeneous biomedical data.
+
+I did my PhD in statistical genomics at University of Cambridge in the
 [MRC Biostatistics Unit](http://www.mrc-bsu.cam.ac.uk/), 
 supervised by [Lorenz Wernisch](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/t-to-z/lorenz-wernisch/).
-I work on probabilistic models for integrative analysis 
-of heterogeneous biomedical data. I will be joining [MRC Cancer Unit](http://www.mrc-cu.cam.ac.uk/)
-as a post-doctoral researcher, working with [Prof. Ashok Venkitaraman](http://www.mrc-cu.cam.ac.uk/venkitaraman.html)
-on mathematical models of early carcinogenesis in epithelial tissues.
-
 Before coming to Cambridge, I studied for a Master's degree in Computational Statistics
 and Machine Learning at [University College London](http://www.csml.ucl.ac.uk/). 
 While at UCL, I did my Master's 
@@ -94,7 +95,11 @@ See my upcoming talks at [Lanyrd](http://lanyrd.com/profile/evelgab/).
 
 ### 2016
 
-*  Spice up your website with machine learning! - [NDC London](http://ndc-london.com/), January 2016.
+*  [The F#orce Awakens](https://skillsmatter.com/skillscasts/7704-the-f-sharporce-awakens) - F# eXchange 2016, London, April 2016. [Slides](http://evelinag.com/star-wars-talk/#/)
+*  Spice up your website with machine learning! - QCon Sao Paulo, March 2016. [Slides](http://evelinag.com/talk-fssnip-recommender/) and [code](https://github.com/evelinag/FsSnip.Website)
+*  [The F#orce Awakens](https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-Force-Awakens) - fsharpConf, online conference on Channel9, March 2016. [Slides](http://evelinag.com/star-wars-talk/#/) 
+*  [Star Wars: The F#orce Awakens](https://www.youtube.com/watch?v=EI8a6hFFRGQ) - Lambda Days, Krakow, February 2016. [Slides](http://evelinag.com/star-wars-talk/#/)
+*  [Spice up your website with machine learning!](https://vimeo.com/161990479) - [NDC London](http://ndc-london.com/), January 2016.
    [Slides](http://evelinag.com/talk-fssnip-recommender/) and [code](https://github.com/evelinag/FsSnip.Website).
 
 ### 2015
