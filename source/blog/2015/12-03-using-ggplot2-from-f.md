@@ -200,6 +200,19 @@ your `paket.dependencies` file:
 
 	github evelinag/ffplot ggplot.fs
 
+## Using RProvider without FsLab
+
+In the examples above, I was using RProvider as a part of [FsLab](http://fslab.org/), 
+a collection of F# data science tools. If you want to use ggplot2 and RProvider directly without
+installing other tools, the easiest way is to load the `fsx` file which is 
+downloaded as a part of the RProvider package:
+
+	// load RProvider into F# interactive
+	#load "packages/RProvider/RProvider.fsx"
+
+This F# scripts loads all the necessary dependencies and adds a printer for 
+F# interactive which displays the R plots. 
+
 ## Helpful tip
 
 I would like to finish with a simple tip.
